@@ -1,0 +1,413 @@
+{
+    "webinquest": [
+        {
+            "datetime": "Jan-13-2025 16:41:28",
+            "homepage": "https://google.com",
+            "response_headers": {
+                "Date": [
+                    "Mon, 13 Jan 2025 13:11:27 GMT"
+                ],
+                "Expires": [
+                    "-1"
+                ],
+                "Cache-Control": [
+                    "private, max-age=0"
+                ],
+                "Content-Type": [
+                    "text/html; charset=ISO-8859-1"
+                ],
+                "Content-Security-Policy-Report-Only": [
+                    "object-src 'none';base-uri 'self';script-src 'nonce-zVLIdNrKwlKFOLhya05Mvw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp"
+                ],
+                "Accept-CH": [
+                    "Sec-CH-Prefers-Color-Scheme"
+                ],
+                "P3P": [
+                    "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\""
+                ],
+                "Content-Encoding": [
+                    "gzip"
+                ],
+                "Server": [
+                    "gws"
+                ],
+                "X-XSS-Protection": [
+                    "0"
+                ],
+                "X-Frame-Options": [
+                    "SAMEORIGIN"
+                ],
+                "Set-Cookie": [
+                    "AEC=AZ6Zc-UdUOztEUlG0AzS2_ig2L1iRLdz33svPnLzbbsjbz4G1Os-FgfUdQ; expires=Sat, 12-Jul-2025 13:11:27 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax",
+                    "NID=520=NvZvje5tLuf_J3uaMa1riYeLKhZuKMg_CBLPwc2OG1GLvLODxbfDEPXxNx8L_qM64CUZ0_ueynnAMfUvJgaDN_WumyHuPDiBo-gdnjcLxdoV8gpyAbxroUlJ-kWqmzJsJUV3OUygzH6y5pW-T4CPfRrwjqa0a4PsIvDA3nrwxbUKqE5EWP9dADapIW2mDkN0DY3iJPccvA; expires=Tue, 15-Jul-2025 13:11:27 GMT; path=/; domain=.google.com; HttpOnly"
+                ],
+                "Alt-Svc": [
+                    "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+                ],
+                "Transfer-Encoding": [
+                    "chunked"
+                ]
+            },
+            "redirect_info": [
+                {
+                    "status": 301,
+                    "url": "https://google.com",
+                    "response_headers": {
+                        "Location": [
+                            "https://www.google.com/"
+                        ],
+                        "Content-Type": [
+                            "text/html; charset=UTF-8"
+                        ],
+                        "Content-Security-Policy-Report-Only": [
+                            "object-src 'none';base-uri 'self';script-src 'nonce-f2tVLPrUPapA7p1WAld9kw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp"
+                        ],
+                        "Date": [
+                            "Mon, 13 Jan 2025 13:11:26 GMT"
+                        ],
+                        "Expires": [
+                            "Wed, 12 Feb 2025 13:11:26 GMT"
+                        ],
+                        "Cache-Control": [
+                            "public, max-age=2592000"
+                        ],
+                        "Server": [
+                            "gws"
+                        ],
+                        "Content-Length": [
+                            "220"
+                        ],
+                        "X-XSS-Protection": [
+                            "0"
+                        ],
+                        "X-Frame-Options": [
+                            "SAMEORIGIN"
+                        ],
+                        "Alt-Svc": [
+                            "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+                        ]
+                    }
+                }
+            ],
+            "ssl_certificate": [
+                {
+                    "443": {
+                        "version": {
+                            "name": "v3",
+                            "value": 2
+                        },
+                        "serial": 277899193820951308436976615486347703348,
+                        "expiration": {
+                            "not_valid_before": "2024-12-09T08:36:18",
+                            "not_valid_after": "2025-03-03T08:36:17"
+                        },
+                        "subject": {
+                            "commonName": "*.google.com"
+                        },
+                        "issuer": {
+                            "countryName": "US",
+                            "organizationName": "Google Trust Services",
+                            "commonName": "WR2"
+                        },
+                        "signature_algorithm": "sha256WithRSAEncryption",
+                        "fingerprints": {
+                            "SHA256": "f2:28:7b:3a:1b:41:cf:6f:01:73:ac:05:7f:c0:2a:9b:fe:4d:0f:09:10:96:29:d3:73:91:d2:57:f5:a4:be:47",
+                            "SHA1": "15:e2:48:e6:6f:85:45:68:e8:83:ea:14:e1:ce:84:66:ea:c7:f1:82"
+                        },
+                        "public_key": "b'-----BEGIN PUBLIC KEY-----\\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEd/6CqvAI/xx4D/bc/ZgX4srXyk5K\\nLQCjkGnKjmuDVXfh4JriN1OsEHmLMQdsgI776qWdHHBpXNBPCZo/WvNPjw==\\n-----END PUBLIC KEY-----\\n'",
+                        "extensions": {
+                            "2.5.29.15": {
+                                "digital_signature": true,
+                                "content_commitment": false,
+                                "key_encipherment": false,
+                                "data_encipherment": false,
+                                "key_agreement": false,
+                                "key_cert_sign": false,
+                                "crl_sign": false,
+                                "encipher_only": null,
+                                "decipher_only": null
+                            },
+                            "2.5.29.37": {
+                                "serverAuth": "1.3.6.1.5.5.7.3.1"
+                            },
+                            "2.5.29.19": {
+                                "ca": false,
+                                "path_length": null
+                            },
+                            "2.5.29.14": {
+                                "digest": "2f8a24d966a37b2ccc7e659b67f72c8b5d9fd6c3"
+                            },
+                            "2.5.29.35": {
+                                "key_identifier": "de1b1eed7915d43e3724c321bbec34396d42b230",
+                                "authority_cert_issuer": "None",
+                                "authority_cert_serial_number": null
+                            },
+                            "1.3.6.1.5.5.7.1.1": [
+                                {
+                                    "access_method": "1.3.6.1.5.5.7.48.1",
+                                    "access_location": "http://o.pki.goog/wr2"
+                                },
+                                {
+                                    "access_method": "1.3.6.1.5.5.7.48.2",
+                                    "access_location": "http://i.pki.goog/wr2.crt"
+                                }
+                            ],
+                            "2.5.29.17": {
+                                "dns_names": [
+                                    "*.google.com",
+                                    "*.appengine.google.com",
+                                    "*.bdn.dev",
+                                    "*.origin-test.bdn.dev",
+                                    "*.cloud.google.com",
+                                    "*.crowdsource.google.com",
+                                    "*.datacompute.google.com",
+                                    "*.google.ca",
+                                    "*.google.cl",
+                                    "*.google.co.in",
+                                    "*.google.co.jp",
+                                    "*.google.co.uk",
+                                    "*.google.com.ar",
+                                    "*.google.com.au",
+                                    "*.google.com.br",
+                                    "*.google.com.co",
+                                    "*.google.com.mx",
+                                    "*.google.com.tr",
+                                    "*.google.com.vn",
+                                    "*.google.de",
+                                    "*.google.es",
+                                    "*.google.fr",
+                                    "*.google.hu",
+                                    "*.google.it",
+                                    "*.google.nl",
+                                    "*.google.pl",
+                                    "*.google.pt",
+                                    "*.googleapis.cn",
+                                    "*.googlevideo.com",
+                                    "*.gstatic.cn",
+                                    "*.gstatic-cn.com",
+                                    "googlecnapps.cn",
+                                    "*.googlecnapps.cn",
+                                    "googleapps-cn.com",
+                                    "*.googleapps-cn.com",
+                                    "gkecnapps.cn",
+                                    "*.gkecnapps.cn",
+                                    "googledownloads.cn",
+                                    "*.googledownloads.cn",
+                                    "recaptcha.net.cn",
+                                    "*.recaptcha.net.cn",
+                                    "recaptcha-cn.net",
+                                    "*.recaptcha-cn.net",
+                                    "widevine.cn",
+                                    "*.widevine.cn",
+                                    "ampproject.org.cn",
+                                    "*.ampproject.org.cn",
+                                    "ampproject.net.cn",
+                                    "*.ampproject.net.cn",
+                                    "google-analytics-cn.com",
+                                    "*.google-analytics-cn.com",
+                                    "googleadservices-cn.com",
+                                    "*.googleadservices-cn.com",
+                                    "googlevads-cn.com",
+                                    "*.googlevads-cn.com",
+                                    "googleapis-cn.com",
+                                    "*.googleapis-cn.com",
+                                    "googleoptimize-cn.com",
+                                    "*.googleoptimize-cn.com",
+                                    "doubleclick-cn.net",
+                                    "*.doubleclick-cn.net",
+                                    "*.fls.doubleclick-cn.net",
+                                    "*.g.doubleclick-cn.net",
+                                    "doubleclick.cn",
+                                    "*.doubleclick.cn",
+                                    "*.fls.doubleclick.cn",
+                                    "*.g.doubleclick.cn",
+                                    "dartsearch-cn.net",
+                                    "*.dartsearch-cn.net",
+                                    "googletraveladservices-cn.com",
+                                    "*.googletraveladservices-cn.com",
+                                    "googletagservices-cn.com",
+                                    "*.googletagservices-cn.com",
+                                    "googletagmanager-cn.com",
+                                    "*.googletagmanager-cn.com",
+                                    "googlesyndication-cn.com",
+                                    "*.googlesyndication-cn.com",
+                                    "*.safeframe.googlesyndication-cn.com",
+                                    "app-measurement-cn.com",
+                                    "*.app-measurement-cn.com",
+                                    "gvt1-cn.com",
+                                    "*.gvt1-cn.com",
+                                    "gvt2-cn.com",
+                                    "*.gvt2-cn.com",
+                                    "2mdn-cn.net",
+                                    "*.2mdn-cn.net",
+                                    "googleflights-cn.net",
+                                    "*.googleflights-cn.net",
+                                    "admob-cn.com",
+                                    "*.admob-cn.com",
+                                    "googlesandbox-cn.com",
+                                    "*.googlesandbox-cn.com",
+                                    "*.safenup.googlesandbox-cn.com",
+                                    "*.gstatic.com",
+                                    "*.metric.gstatic.com",
+                                    "*.gvt1.com",
+                                    "*.gcpcdn.gvt1.com",
+                                    "*.gvt2.com",
+                                    "*.gcp.gvt2.com",
+                                    "*.url.google.com",
+                                    "*.youtube-nocookie.com",
+                                    "*.ytimg.com",
+                                    "android.com",
+                                    "*.android.com",
+                                    "*.flash.android.com",
+                                    "g.cn",
+                                    "*.g.cn",
+                                    "g.co",
+                                    "*.g.co",
+                                    "goo.gl",
+                                    "www.goo.gl",
+                                    "google-analytics.com",
+                                    "*.google-analytics.com",
+                                    "google.com",
+                                    "googlecommerce.com",
+                                    "*.googlecommerce.com",
+                                    "ggpht.cn",
+                                    "*.ggpht.cn",
+                                    "urchin.com",
+                                    "*.urchin.com",
+                                    "youtu.be",
+                                    "youtube.com",
+                                    "*.youtube.com",
+                                    "music.youtube.com",
+                                    "*.music.youtube.com",
+                                    "youtubeeducation.com",
+                                    "*.youtubeeducation.com",
+                                    "youtubekids.com",
+                                    "*.youtubekids.com",
+                                    "yt.be",
+                                    "*.yt.be",
+                                    "android.clients.google.com",
+                                    "*.android.google.cn",
+                                    "*.chrome.google.cn",
+                                    "*.developers.google.cn"
+                                ]
+                            },
+                            "2.5.29.32": [
+                                {
+                                    "policy_identifier": "2.23.140.1.2.1"
+                                }
+                            ],
+                            "2.5.29.31": "<CRLDistributionPoints([<DistributionPoint(full_name=[<UniformResourceIdentifier(value='http://c.pki.goog/wr2/9UVbN0w5E6Y.crl')>], relative_name=None, reasons=None, crl_issuer=None)>])>",
+                            "1.3.6.1.4.1.11129.2.4.2": [
+                                {
+                                    "log_id": "cf1156eed52e7caff3875bd9692e9be91a71674ab017ecac01d25b77cecc3b08",
+                                    "timestamp": "2024-12-09 09:36:23.800000"
+                                },
+                                {
+                                    "log_id": "e092b3fc0c1dc8e768361fde61b9964d0a5278198a72d672c4b04da56d6f5404",
+                                    "timestamp": "2024-12-09 09:36:23.797000"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "links": [
+                "https://google.com/intl/en/policies/terms/",
+                "https://google.com/advanced_search?hl=en-IR&authuser=0",
+                "https://google.com/intl/en/policies/privacy/",
+                "https://google.com/intl/en/about.html",
+                "https://google.com/intl/en/ads/",
+                "https://google.com/preferences?hl=en"
+            ],
+            "technologies": [
+                {
+                    "name": "Google Web Server",
+                    "version": null
+                },
+                {
+                    "name": "HTTP/3",
+                    "version": null
+                }
+            ],
+            "domain_records": {
+                "A": [
+                    "142.250.186.78"
+                ],
+                "AAAA": [
+                    "2001:4860:4802:32::78"
+                ],
+                "CNAME": [
+                    "string."
+                ],
+                "MX": [
+                    "10 smtp.google.com."
+                ],
+                "TXT": [
+                    "\"docusign=1b0a6754-49b1-4db5-8540-d2c12664b289\"",
+                    "\"v=spf1 include:_spf.google.com ~all\"",
+                    "\"MS=E4A68B9AB2BB9670BCE15412F62916164C0B20BB\"",
+                    "\"google-site-verification=wD8N7i1JTNTkezJ49swvWW48f8_9xveREV4oB-0Hf5o\"",
+                    "\"cisco-ci-domain-verification=479146de172eb01ddee38b1a455ab9e8bb51542ddd7f1fa298557dfa7b22d963\"",
+                    "\"apple-domain-verification=30afIBcvSuDV2PLX\"",
+                    "\"docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e\"",
+                    "\"onetrust-domain-verification=de01ed21f2fa4d8781cbc3ffb89cf4ef\"",
+                    "\"google-site-verification=4ibFUgB-wXLQ_S7vsXVomSTVamuOXBiVAzpR5IZ87D0\"",
+                    "\"globalsign-smime-dv=CDYX+XFHUw2wml6/Gb8+59BsH31KzUr6c1l2BPvqKX8=\"",
+                    "\"facebook-domain-verification=22rm551cu4k0ab0bxsw536tlds4h95\"",
+                    "\"google-site-verification=TV9-DBe4R80X4v0M4U_bd_J9cpOJM0nikft0jAgjmsQ\""
+                ],
+                "NS": [
+                    "ns1.google.com.",
+                    "ns3.google.com.",
+                    "ns2.google.com.",
+                    "ns4.google.com."
+                ],
+                "SOA": "The DNS query name does not exist: google.com.",
+                "SRV": "The DNS query name does not exist: google.com.",
+                "PTR": "The DNS query name does not exist: google.com."
+            },
+            "common_words": [
+                [
+                    "googlesearch",
+                    1
+                ],
+                [
+                    "images",
+                    1
+                ],
+                [
+                    "maps",
+                    1
+                ],
+                [
+                    "play",
+                    1
+                ],
+                [
+                    "youtube",
+                    1
+                ],
+                [
+                    "news",
+                    1
+                ],
+                [
+                    "gmail",
+                    1
+                ],
+                [
+                    "drive",
+                    1
+                ],
+                [
+                    "more",
+                    1
+                ],
+                [
+                    "web",
+                    1
+                ]
+            ]
+        }
+    ]
+}
